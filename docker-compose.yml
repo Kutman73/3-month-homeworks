@@ -9,4 +9,4 @@ services:
       context: .
       dockerfile: DockerFile
     volumes:
-      - /opt/services/bot/geektech-bot
+      - /opt/services/bot/my-bot
