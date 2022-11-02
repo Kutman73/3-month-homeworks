@@ -2,9 +2,9 @@ from aiogram import types, Dispatcher
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters import Text
 from aiogram.dispatcher.filters.state import State, StatesGroup
-from my_bots.bot2.config import bot, ADMIN
+from my_bots.bot2.venv.config import bot, ADMIN
 from my_bots.bot2.database.bot_db import sgl_command_insert
-from my_bots.bot2.test import r_id
+from my_bots.bot2.venv.test import r_id
 
 
 class FSMAdmin(StatesGroup):

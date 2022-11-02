@@ -1,6 +1,6 @@
 import aioschedule
 from aiogram import types, Dispatcher
-from my_bots.bot2.config import bot
+from my_bots.bot2.venv.config import bot
 import asyncio
 
 
