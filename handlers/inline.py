@@ -2,10 +2,6 @@ from aiogram import types, Dispatcher
 import hashlib
 
 
-# def finder(text):
-#     return YT(text, max_results=10).to_dict()
-
-
 async def inline_wiki_handler(query: types.InlineQuery):
     text = query.query or "Python"
     link = f'https://ru.wikipedia.org/wiki/{text}'
